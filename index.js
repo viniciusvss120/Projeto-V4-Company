@@ -1,7 +1,6 @@
 let count = 1
 const radio = document.querySelectorAll('.manual-btn')
 const setas = document.querySelectorAll('button')
-console.log(radio)
 
 setInterval(() => {
     nextImage()
@@ -20,7 +19,7 @@ const setasDireita = setasArray.filter(direita => direita.classList.contains('di
 
 setasEsquerda.forEach(eventSeta => eventSeta.addEventListener('click', nextImage2))
 setasDireita.forEach(eventSeta => eventSeta.addEventListener('click', nextImage))
-console.log(setasDireita)
+
 
 
 setas[0].addEventListener('click', nextImage2)
@@ -32,7 +31,7 @@ function nextImage(){
     if(count > 3){
         count = 1
     }
-    console.log(count)
+    
     document.getElementById('radio'+count).checked = true
 }
 
@@ -42,5 +41,5 @@ function nextImage2(){
         // count = count
         document.getElementById('radio'+count).checked = true
     }
-    console.log(count)
+    
 }
