@@ -358,6 +358,20 @@ a{
         font-size: 0.885rem;
         margin-bottom: 5px;
     } 
+    .manual-navigation{
+        position: absolute;
+        width: 100%;
+        top: 850px;
+        left: 30px;
+        z-index: 10;
+    }
+    .navigation-auto{
+        position: absolute;
+        width: 100%;
+        top: 850px;
+        left: 30px;
+        z-index: 10;
+    }
 }
 @media (max-width: 512px){
     .title{
