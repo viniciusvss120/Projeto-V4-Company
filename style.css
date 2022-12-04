@@ -327,7 +327,7 @@ a{
 }
 @media (max-width: 720px) {
     body{
-        /* overflow-x: hidden; */
+        overflow-x: hidden;
     }
     .slides{
         /* max-width: 100%; */
@@ -340,9 +340,24 @@ a{
     .title h2 strong{
         font-size: 1.8rem;
     }
-    .descricao-container .descricao h3{
-        font-size: 1.6rem;
+    .slides{
+        width: 400%;
     }
+    .btn{
+        font-size: 0.895rem;
+        padding: 10px;
+        width: 120px;
+        height: 20px;
+        z-index: 10;
+    }
+    .descricao-container .descricao h3{
+        font-size: 1.4rem;
+        margin-bottom: 5px;
+    }
+    .descricao-container .descricao p{
+        font-size: 0.885rem;
+        margin-bottom: 5px;
+    } 
 }
 @media (max-width: 512px){
     .title{
