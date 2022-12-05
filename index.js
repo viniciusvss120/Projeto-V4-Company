@@ -2,9 +2,9 @@ let count = 1
 const radio = document.querySelectorAll('.manual-btn')
 const setas = document.querySelectorAll('button')
 
-setInterval(() => {
-    nextImage()
-},5000)
+// setInterval(() => {
+//     nextImage()
+// },5000)
 
 // for(let i = 0; i < setas.length; i++){
 //     setas[i].addEventListener('')
