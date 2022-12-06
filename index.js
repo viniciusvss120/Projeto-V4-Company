@@ -1,6 +1,8 @@
 let count = 1
-const radio = document.querySelectorAll('.manual-btn')
+document.getElementById("radio1").checked = true
+// const radio = document.querySelectorAll('.manual-btn')
 const setas = document.querySelectorAll('button')
+
 
 setInterval(() => {
     nextImage()
@@ -32,7 +34,7 @@ function nextImage(){
         count = 1
     }
     
-    document.getElementById('radio'+count).checked = true
+    document.getElementById("radio"+count).checked = true
 }
 
 function nextImage2(){
