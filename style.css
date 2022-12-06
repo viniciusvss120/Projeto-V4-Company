@@ -183,7 +183,7 @@ a{
     position: absolute;
     /* min-width: 700px; */
     width: 100%;
-    top: 670px;
+    top: 600px;
     display: flex;
     justify-content: center;
     left: 21px;
@@ -225,7 +225,7 @@ a{
  .navigation-auto{
     position: absolute;
     width: 100%;
-    top: 670px; 
+    top: 600px; 
     display: flex;
     justify-content: center;
     left: 20px;
@@ -305,14 +305,14 @@ a{
     .manual-navigation{
         position: absolute;
         width: 100%;
-        top: 850px;
+        top: 950px;
         left: 50px;
         z-index: 100;
     }
     .navigation-auto{
         position: absolute;
         width: 100%;
-        top: 850px;
+        top: 950px;
         left: 50px;
         z-index: 100;
     }
